@@ -9,4 +9,4 @@ Console.WriteLine("Введите трехзначное число");
 int numb = Convert.ToInt32(Console.ReadLine());
 // int centerDigit = numb / 10 % 10;
 Console.WriteLine(
-    (numb>=100 && numb<1000) ? numb / 10 % 10 : "Вы ввели не трехзначное число или данные не типа int");
+    numb>=100 && numb<1000 ? numb / 10 % 10 : "Вы ввели не трехзначное число");
